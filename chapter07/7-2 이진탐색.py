@@ -55,7 +55,7 @@ def binary_search2(arr, target, start, end):
 n, target = list(map(int,input("원소의 개수 N과 찾고자하는 값 target을 입력해주세요 > ").split()))
 arr = list(map(int,input().split()))
 
-result = binary_search(arr, target, 0, n-1)
+result = binary_search2(arr, target, 0, n-1)
 if result == None:
     print("원소가 없습니다.")
 else:
