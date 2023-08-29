@@ -44,3 +44,8 @@ for i in range(1, n+1):
         print(distance[i])
 
 #어렵다...
+
+
+##
+# heapq.heappush(heap, item): item을 heap에 추가
+# heapq.heappop(heap): heap에서 가장 작은 원소를 제거 & 리턴. 비어 있는 경우 IndexError 호출
