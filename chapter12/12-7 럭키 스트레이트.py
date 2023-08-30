@@ -1,4 +1,4 @@
-#Q7 러키 스트레이트
+#Q7 럭키 스트레이트
 
 # [문제]
 # 현재 캐릭터의 점수를 N이라고 할 때 자릿수를 기준으로 점수 N을 반으로 나누어 왼쪽 부분의 각 자릿수의 합과 오른쪽 부분의 각 자릿수의 합을 더한 값이 동일한 상황
@@ -16,9 +16,6 @@ right = 0
 for i in range(len(n) // 2):
     left += n[i]
     right += n[(i+1)*-1]
-    print(left)
-    print(right)
-
 
 if left == right:
     print("LUCKY")
